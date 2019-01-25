@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Oct 15 11:10:20 2018
+# Process ID: 11316
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing/webtalk.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing/xsim.dir/sellmachine_design_second_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace

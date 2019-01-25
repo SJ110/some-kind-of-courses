@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Oct 12 12:54:28 2018
+# Process ID: 10976
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 734.113 ; gain = 164.758
+save_project_as project_4_friday C:/Users/lenovo/Desktop/project_4_friday -force
+reset_run synth_1
+launch_runs impl_1
+[Fri Oct 12 12:56:16 2018] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project_4_friday/project_4_friday.runs/synth_1/runme.log
+[Fri Oct 12 12:56:16 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project_4_friday/project_4_friday.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Oct 12 12:58:07 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project_4_friday/project_4_friday.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 12 12:59:24 2018...

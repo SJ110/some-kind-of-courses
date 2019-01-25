@@ -1,0 +1,467 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Oct 14 09:14:43 2018
+# Process ID: 10448
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.xpr
+open_project D:/大二下/verilog/test4/test4.xpr
+close_project
+open_project D:/大二下/verilog/test4/test4.xpr
+current_project sellmachine_design_second
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+current_project test4
+close_project
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+restart
+run 1000 ns
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+restart
+run 1000 ns
+run 1000 ns
+add_wave {{/sellmachine_design_second_tb}} 
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type timing
+source sellmachine_design_second_tb.tcl
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source sellmachine_design_second_tb.tcl
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+close [ open C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/press_main_tb.v w ]
+add_files C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/press_main_tb.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top press_main_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top light_main [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source press_main_tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sellmachine_design_second [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sellmachine_design_second_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_bp {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v} 54
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb}} 
+add_wave {{/sellmachine_design_second_tb}} 
+add_wave {{/sellmachine_design_second_tb}} 
+restart
+run 1000 ns
+add_wave {{/sellmachine_design_second_tb}} 
+add_wave {{/glbl}} 
+add_wave {{/sellmachine_design_second_tb/test}} 
+run 1000 ns
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/glbl}} 
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+add_bp {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} 391
+remove_bps -file {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} -line 391
+add_bp {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} 391
+remove_bps -file {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} -line 391
+add_bp {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} 391
+remove_bps -file {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v} -line 391
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/glbl}} 
+add_wave {{/glbl}} 
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top press_main_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source press_main_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sellmachine_design_second_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+close_hw_target
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+open_project D:/大二下/verilog/test4/test4.xpr
+close_project
+close [ open C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/top.v w ]
+add_files C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/top.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+current_design synth_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+remove_files C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/top.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_hw_target
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top press_main_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_hw_target
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sellmachine_design_second [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_sim
+launch_simulation
+source press_main_tb.tcl
+close_hw_target
+close_hw_target
+close_hw_target
+close_sim
+launch_simulation
+source press_main_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sellmachine_design_second_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb/test}} 
+restart
+run 1000 ns
+close_sim
+close_sim
+close_sim

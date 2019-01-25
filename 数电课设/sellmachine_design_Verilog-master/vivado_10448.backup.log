@@ -1,0 +1,696 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Oct 13 13:44:41 2018
+# Process ID: 11688
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 702.871 ; gain = 155.863
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 54.703 ; gain = 0.004
+
+    while executing
+"webtalk_transmit -clientid 27720421 -regid "" -xml C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav..."
+    (file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtal..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 21:14:05 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 724.539 ; gain = 2.184
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:29 . Memory (MB): peak = 745.336 ; gain = 22.980
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+[Sat Oct 13 21:22:26 2018] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/synth_1/runme.log
+[Sat Oct 13 21:22:26 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Sat Oct 13 21:24:35 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746392A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+open_project D:/大二下/verilog/test4/test4.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/大二下/verilog/大二下/计算机系统基础/vivado各次试验/project_4/project_4.cache/ip'.
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'D:/大二下/verilog/大二下/计算机系统基础/vivado各次试验/project_4/project_4.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/大二下/verilog/大二下/计算机系统基础/vivado各次试验/project_4/project_4.cache/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2015.2/data/ip'.
+current_project sellmachine_design_second
+reset_run synth_1
+launch_runs impl_1
+[Sat Oct 13 21:34:03 2018] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/synth_1/runme.log
+[Sat Oct 13 21:34:03 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 826.902 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 54.703 ; gain = 0.023
+
+    while executing
+"webtalk_transmit -clientid 3180889520 -regid "" -xml C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/beh..."
+    (file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtal..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 21:36:34 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 826.902 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 826.902 ; gain = 0.000
+add_wave {{/sellmachine_design_second_tb}} 
+run 1000 ns
+run 1000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 841.988 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clk_change is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 54.582 ; gain = 0.027
+
+    while executing
+"webtalk_transmit -clientid 1497956239 -regid "" -xml C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/beh..."
+    (file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtal..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 21:43:57 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 841.988 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 841.988 ; gain = 0.000
+run 1000 ns
+current_project test4
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Topest_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/大二下/verilog/test4/test4.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Topest_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Adder.v:24]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Adder.v:25]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Adder.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Comparator.v:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/imports/new/Decoder_28_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder_28_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/imports/new/Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Latch.v:25]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Latch.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Memory.v:24]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Memory.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Selector
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Selector.v:24]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Selector.v:25]
+WARNING: [VRFC 10-756] identifier WIDTH is used before its declaration [D:/大二下/verilog/test4/test4.srcs/sources_1/new/Selector.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/imports/new/pattern.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Datapath_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Fsm_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fsm_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/imports/new/Show_Number.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Show_Number
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Topest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Topest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.srcs/sources_1/new/Topest_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Topest_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/大二下/verilog/test4/test4.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/大二下/verilog/test4/test4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7579ec3b4af8438fa560fa6fab5b7e2f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Topest_tb_behav xil_defaultlib.Topest_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Divider
+Compiling module xil_defaultlib.Decoder_28_32
+Compiling module xil_defaultlib.pattern
+Compiling module xil_defaultlib.Show_Number
+Compiling module xil_defaultlib.Fsm_controller
+Compiling module xil_defaultlib.Adder(WIDTH=32)
+Compiling module xil_defaultlib.Selector(WIDTH=32)
+Compiling module xil_defaultlib.Latch(WIDTH=32)
+Compiling module xil_defaultlib.Memory(WIDTH=32)
+Compiling module xil_defaultlib.Comparator(WIDTH=32)
+Compiling module xil_defaultlib.Datapath_top
+Compiling module xil_defaultlib.Topest
+Compiling module xil_defaultlib.Topest_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Topest_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/大二下/verilog/test4/test4.sim/sim_1/behav/xsim.dir/Topest_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/大二下/verilog/test4/test4.sim/sim_1/behav/xsim.dir/Topest_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 13 21:52:30 2018. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 21:52:30 2018...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/大二下/verilog/test4/test4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Topest_tb_behav -key {Behavioral:sim_1:Functional:Topest_tb} -tclbatch {Topest_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Topest_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Topest_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 841.988 ; gain = 0.000
+current_project sellmachine_design_second
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/sellmachine_design_second_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clk_change is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 13 21:58:31 2018. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 21:58:31 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 848.820 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 848.820 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1
+[Sat Oct 13 22:35:05 2018] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/synth_1/runme.log
+[Sat Oct 13 22:35:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/sellmachine_design_second_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clk_change is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 13 22:37:18 2018. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 22:37:18 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 878.508 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 878.508 ; gain = 0.000
+run 1000 ns
+run 1000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1000 ns
+run 1000 ns
+run 1000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1000 ns
+run 1000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/sellmachine_design_second_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'sellmachine_design_second_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sellmachine_design_second_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/change_HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_main
+WARNING: [VRFC 10-1315] redeclaration of ansi port light is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port light_part is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clk_change is not allowed [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_main.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/light_press.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sources_1/new/sellmachine_design_second.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 3ba018a430c94b08aae527a5fc96e0e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sellmachine_design_second_tb_behav xil_defaultlib.sellmachine_design_second_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.change_HZ
+Compiling module xil_defaultlib.light_main
+Compiling module xil_defaultlib.light_press
+Compiling module xil_defaultlib.sellmachine_design_second
+Compiling module xil_defaultlib.sellmachine_design_second_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot sellmachine_design_second_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 13 22:38:19 2018. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 22:38:19 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 878.508 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sellmachine_design_second_tb_behav -key {Behavioral:sim_1:Functional:sellmachine_design_second_tb} -tclbatch {sellmachine_design_second_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source sellmachine_design_second_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 20 ns : File "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sellmachine_design_second_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 878.508 ; gain = 0.000
+run 1000 ns
+add_wave {{/sellmachine_design_second_tb}} 
+ERROR: [Wavedata 42-471] Note: Nothing was found for the following items: /sellmachine_design_second_tb 
+ERROR: [Common 17-39] 'add_wave' failed due to earlier errors.
+run 1000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 878.508 ; gain = 0.000
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Sat Oct 13 23:23:11 2018. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 13 23:23:11 2018...
+close_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 13 23:25:33 2018...

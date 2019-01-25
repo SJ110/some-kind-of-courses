@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Oct 13 13:44:41 2018
+# Process ID: 11688
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.xpr
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.runs/impl_1/sellmachine_design_second.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+open_project D:/´ó¶þÏÂ/verilog/test4/test4.xpr
+current_project sellmachine_design_second
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+add_wave {{/sellmachine_design_second_tb}} 
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+current_project test4
+launch_simulation
+source Topest_tb.tcl
+current_project sellmachine_design_second
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+run 1000 ns
+restart
+run 1000 ns
+run 1000 ns
+run 1000 ns
+restart
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source sellmachine_design_second_tb.tcl
+run 1000 ns
+add_wave {{/sellmachine_design_second_tb}} 
+run 1000 ns
+close_sim
+close_project
+close_sim

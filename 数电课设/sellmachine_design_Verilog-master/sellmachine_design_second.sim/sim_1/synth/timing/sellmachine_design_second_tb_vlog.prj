@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "sellmachine_design_second_tb_time_synth.v"
+verilog xil_defaultlib  "../../../../sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

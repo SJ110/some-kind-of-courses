@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Oct 17 13:19:05 2018
+# Process ID: 4312
+# Log file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1106627070 -regid "" -xml C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/beh..."
+    (file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/behav/xsim.dir/sellmachine_design_second_tb_behav/webtal..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 17 13:19:05 2018...

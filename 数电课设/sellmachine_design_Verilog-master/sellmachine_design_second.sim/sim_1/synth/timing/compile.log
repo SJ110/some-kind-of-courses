@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing/sellmachine_design_second_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module change_HZ
+INFO: [VRFC 10-311] analyzing module light_main
+INFO: [VRFC 10-311] analyzing module light_press
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.srcs/sim_1/new/sellmachine_design_second_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sellmachine_design_second_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/lenovo/Desktop/sellmachine_design_Verilog-master/sellmachine_design_second.sim/sim_1/synth/timing/glbl.v:6]
